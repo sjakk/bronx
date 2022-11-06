@@ -1,0 +1,3 @@
+[submodule "bronx/vendor/spdlog"]
+	path = bronx/vendor/spdlog
+	url = https://github.com/gabime/spdlog
