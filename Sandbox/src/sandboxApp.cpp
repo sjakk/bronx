@@ -1,18 +1,11 @@
-#include <bronx.h>
-
+#include "bronx.h"
+#include <stdio.h>
 class Sandbox : public bronx::Application {
 public:
-	Sandbox()
-	{
-
-	};
-	~Sandbox()
-	{
-
-	};
+	
 };
 
-bronx::Application* bronx::createApplication()
-{
+
+bronx::Application* bronx::createApp() {
 	return new Sandbox();
-};
+}

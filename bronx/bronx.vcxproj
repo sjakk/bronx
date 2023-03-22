@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\bronx\log.h" />
     <ClInclude Include="src\bronx.h" />
     <ClInclude Include="src\bronx\application.h" />
     <ClInclude Include="src\bronx\core.h" />
     <ClInclude Include="src\bronx\entryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\bronx\log.cpp" />
     <ClCompile Include="src\bronx\application.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -53,12 +55,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>$(SolutionDir)\bin\$(Configuration)-$(Platform)\$(Platform)\$(ProjectName)\</OutDir>
-    <IntDir>$(SolutionDir)\bin\int\$(Configuration)-$(Platform)\$(Platform)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\$(ProjectName)\</OutDir>
+    <IntDir>$(SolutionDir)\bin-int\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>$(SolutionDir)\bin\$(Configuration)-$(Platform)\$(Platform)\$(ProjectName)\</OutDir>
-    <IntDir>$(SolutionDir)\bin\int\$(Configuration)-$(Platform)\$(Platform)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\$(ProjectName)\</OutDir>
+    <IntDir>$(SolutionDir)\bin-int\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -66,7 +68,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>BRX_PLATFORM_WINDOWS;BRX_BUILD_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\bronx\bronx\bronx\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\bronx\vendor\spddlog\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -81,7 +83,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>BRX_PLATFORM_WINDOWS;BRX_BUILD_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\bronx\bronx\bronx\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\bronx\vendor\spddlog\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
