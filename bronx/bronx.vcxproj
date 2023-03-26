@@ -11,6 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\bronx\Events\applicationEvent.h" />
+    <ClInclude Include="src\bronx\Events\Event.h" />
     <ClInclude Include="src\bronx\log.h" />
     <ClInclude Include="src\bronx.h" />
     <ClInclude Include="src\bronx\application.h" />
@@ -68,7 +70,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>BRX_PLATFORM_WINDOWS;BRX_BUILD_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)\bronx\vendor\spddlog\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\bronx\vendor\spddlog\include;$(SolutionDir)\bronx\src</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -83,7 +85,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>BRX_PLATFORM_WINDOWS;BRX_BUILD_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)\bronx\vendor\spddlog\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\bronx\vendor\spddlog\include;$(SolutionDir)\bronx\src</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

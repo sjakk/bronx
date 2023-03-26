@@ -1,0 +1,30 @@
+Start testing: Mar 25 12:58 Hora oficial do Brasil
+----------------------------------------------------------
+1/1 Testing: HelloTest.BasicAssertions
+1/1 Test: HelloTest.BasicAssertions
+Command: "C:/Users/illya/Documents/bronx/build/Debug/hellotest.exe" "--gtest_filter=HelloTest.BasicAssertions" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/illya/Documents/bronx/build
+"HelloTest.BasicAssertions" start time: Mar 25 12:58 Hora oficial do Brasil
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\illya\Documents\bronx\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = HelloTest.BasicAssertions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions
+[       OK ] HelloTest.BasicAssertions (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions" end time: Mar 25 12:58 Hora oficial do Brasil
+"HelloTest.BasicAssertions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 25 12:58 Hora oficial do Brasil

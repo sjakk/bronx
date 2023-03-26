@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/illya/Documents/bronx/out/build/x64-debug/bronx/src/bronx/appl[1]_tests.cmake")
+  include("C:/Users/illya/Documents/bronx/out/build/x64-debug/bronx/src/bronx/appl[1]_tests.cmake")
+else()
+  add_test(appl_NOT_BUILT appl_NOT_BUILT)
+endif()

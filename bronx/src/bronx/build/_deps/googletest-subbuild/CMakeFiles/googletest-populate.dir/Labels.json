@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/illya/Documents/bronx/bronx/src/bronx/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "C:/Users/illya/Documents/bronx/bronx/src/bronx/build/_deps/googletest-subbuild/CMakeFiles/e22829d79663824f03a88bc246b9f845/googletest-populate.rule"
+		},
+		{
+			"file" : "C:/Users/illya/Documents/bronx/bronx/src/bronx/build/_deps/googletest-subbuild/CMakeFiles/08f9f01fcab9ab59c72d20f7d4b27700/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/illya/Documents/bronx/bronx/src/bronx/build/_deps/googletest-subbuild/CMakeFiles/9b8604d07c0f00f18a2b60e191eaceec/googletest-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/illya/Documents/bronx/bronx/src/bronx/build/_deps/googletest-subbuild/CMakeFiles/9b8604d07c0f00f18a2b60e191eaceec/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/illya/Documents/bronx/bronx/src/bronx/build/_deps/googletest-subbuild/CMakeFiles/9b8604d07c0f00f18a2b60e191eaceec/googletest-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/illya/Documents/bronx/bronx/src/bronx/build/_deps/googletest-subbuild/CMakeFiles/9b8604d07c0f00f18a2b60e191eaceec/googletest-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/illya/Documents/bronx/bronx/src/bronx/build/_deps/googletest-subbuild/CMakeFiles/9b8604d07c0f00f18a2b60e191eaceec/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/illya/Documents/bronx/bronx/src/bronx/build/_deps/googletest-subbuild/CMakeFiles/9b8604d07c0f00f18a2b60e191eaceec/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/illya/Documents/bronx/bronx/src/bronx/build/_deps/googletest-subbuild/CMakeFiles/9b8604d07c0f00f18a2b60e191eaceec/googletest-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/illya/Documents/bronx/bronx/src/bronx/build/_deps/googletest-subbuild/CMakeFiles/9b8604d07c0f00f18a2b60e191eaceec/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

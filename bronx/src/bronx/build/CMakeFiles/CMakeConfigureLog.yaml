@@ -1,0 +1,388 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Windows - 10.0.19044 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+      Compilação de 25/03/2023 21:09:38 iniciada.
+      Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+      
+      Projeto "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.vcxproj" no nó 1 (destinos padrão).
+      PrepareForBuild:
+        Criando o diretório "Debug\\".
+        Criando o diretório "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Projeto de compilação pronto "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.vcxproj" (destinos padrão).
+      
+      Compilação com êxito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:01.68
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+      Compilação de 25/03/2023 21:09:40 iniciada.
+      Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+      
+      Projeto "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no nó 1 (destinos padrão).
+      PrepareForBuild:
+        Criando o diretório "Debug\\".
+        Criando o diretório "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Projeto de compilação pronto "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos padrão).
+      
+      Compilação com êxito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:01.18
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-wjckjz"
+      binary: "C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-wjckjz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-wjckjz
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ed3ca.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+        Compilação de 25/03/2023 21:09:43 iniciada.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Projeto "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjckjz\\cmTC_ed3ca.vcxproj" no nó 1 (destinos padrão).
+        PrepareForBuild:
+          Criando o diretório "cmTC_ed3ca.dir\\Debug\\".
+          Criando o diretório "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjckjz\\Debug\\".
+          Criando o diretório "cmTC_ed3ca.dir\\Debug\\cmTC_ed3ca.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_ed3ca.dir\\Debug\\cmTC_ed3ca.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ed3ca.dir\\Debug\\\\" /Fd"cmTC_ed3ca.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32215 for x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ed3ca.dir\\Debug\\\\" /Fd"cmTC_ed3ca.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjckjz\\Debug\\cmTC_ed3ca.exe" /INCREMENTAL /ILK:"cmTC_ed3ca.dir\\Debug\\cmTC_ed3ca.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-wjckjz/Debug/cmTC_ed3ca.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-wjckjz/Debug/cmTC_ed3ca.lib" /MACHINE:X64  /machine:x64 cmTC_ed3ca.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ed3ca.vcxproj -> C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjckjz\\Debug\\cmTC_ed3ca.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_ed3ca.dir\\Debug\\cmTC_ed3ca.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_ed3ca.dir\\Debug\\cmTC_ed3ca.tlog\\cmTC_ed3ca.lastbuildstate".
+        Projeto de compilação pronto "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjckjz\\cmTC_ed3ca.vcxproj" (destinos padrão).
+        
+        Compilação com êxito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:01.15
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-ew1bk8"
+      binary: "C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-ew1bk8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-ew1bk8
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1ab5d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+        Compilação de 25/03/2023 21:09:44 iniciada.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Projeto "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ew1bk8\\cmTC_1ab5d.vcxproj" no nó 1 (destinos padrão).
+        PrepareForBuild:
+          Criando o diretório "cmTC_1ab5d.dir\\Debug\\".
+          Criando o diretório "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ew1bk8\\Debug\\".
+          Criando o diretório "cmTC_1ab5d.dir\\Debug\\cmTC_1ab5d.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_1ab5d.dir\\Debug\\cmTC_1ab5d.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1ab5d.dir\\Debug\\\\" /Fd"cmTC_1ab5d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32215 for x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1ab5d.dir\\Debug\\\\" /Fd"cmTC_1ab5d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ew1bk8\\Debug\\cmTC_1ab5d.exe" /INCREMENTAL /ILK:"cmTC_1ab5d.dir\\Debug\\cmTC_1ab5d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-ew1bk8/Debug/cmTC_1ab5d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-ew1bk8/Debug/cmTC_1ab5d.lib" /MACHINE:X64  /machine:x64 cmTC_1ab5d.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_1ab5d.vcxproj -> C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ew1bk8\\Debug\\cmTC_1ab5d.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_1ab5d.dir\\Debug\\cmTC_1ab5d.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_1ab5d.dir\\Debug\\cmTC_1ab5d.tlog\\cmTC_1ab5d.lastbuildstate".
+        Projeto de compilação pronto "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ew1bk8\\cmTC_1ab5d.vcxproj" (destinos padrão).
+        
+        Compilação com êxito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:02.32
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:70 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-80zm44"
+      binary: "C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-80zm44"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-80zm44
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ac555.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+        Compilação de 25/03/2023 21:09:55 iniciada.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Projeto "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-80zm44\\cmTC_ac555.vcxproj" no nó 1 (destinos padrão).
+        PrepareForBuild:
+          Criando o diretório "cmTC_ac555.dir\\Debug\\".
+          Criando o diretório "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-80zm44\\Debug\\".
+          Criando o diretório "cmTC_ac555.dir\\Debug\\cmTC_ac555.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_ac555.dir\\Debug\\cmTC_ac555.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ac555.dir\\Debug\\\\" /Fd"cmTC_ac555.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-80zm44\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32215 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ac555.dir\\Debug\\\\" /Fd"cmTC_ac555.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-80zm44\\src.c"
+        C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-80zm44\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-80zm44\\cmTC_ac555.vcxproj]
+        Projeto de compilação pronto "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-80zm44\\cmTC_ac555.vcxproj" (destinos padrão) -- FALHA.
+        
+        FALHA da compilação.
+        
+        "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-80zm44\\cmTC_ac555.vcxproj" (destino padrão) (1) ->
+        (ClCompile destino) -> 
+          C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-80zm44\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-80zm44\\cmTC_ac555.vcxproj]
+        
+            0 Aviso(s)
+            1 Erro(s)
+        
+        Tempo Decorrido 00:00:00.83
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:70 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-dgmore"
+      binary: "C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-dgmore"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-dgmore
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_abd86.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+        Compilação de 25/03/2023 21:09:56 iniciada.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Projeto "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgmore\\cmTC_abd86.vcxproj" no nó 1 (destinos padrão).
+        PrepareForBuild:
+          Criando o diretório "cmTC_abd86.dir\\Debug\\".
+          Criando o diretório "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgmore\\Debug\\".
+          Criando o diretório "cmTC_abd86.dir\\Debug\\cmTC_abd86.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_abd86.dir\\Debug\\cmTC_abd86.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_abd86.dir\\Debug\\\\" /Fd"cmTC_abd86.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgmore\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32215 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_abd86.dir\\Debug\\\\" /Fd"cmTC_abd86.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgmore\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgmore\\Debug\\cmTC_abd86.exe" /INCREMENTAL /ILK:"cmTC_abd86.dir\\Debug\\cmTC_abd86.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-dgmore/Debug/cmTC_abd86.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-dgmore/Debug/cmTC_abd86.lib" /MACHINE:X64  /machine:x64 cmTC_abd86.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgmore\\cmTC_abd86.vcxproj]
+        Projeto de compilação pronto "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgmore\\cmTC_abd86.vcxproj" (destinos padrão) -- FALHA.
+        
+        FALHA da compilação.
+        
+        "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgmore\\cmTC_abd86.vcxproj" (destino padrão) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgmore\\cmTC_abd86.vcxproj]
+        
+            0 Aviso(s)
+            1 Erro(s)
+        
+        Tempo Decorrido 00:00:01.05
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:70 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-xket89"
+      binary: "C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-xket89"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-xket89
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bb565.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+        Compilação de 25/03/2023 21:09:58 iniciada.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Projeto "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xket89\\cmTC_bb565.vcxproj" no nó 1 (destinos padrão).
+        PrepareForBuild:
+          Criando o diretório "cmTC_bb565.dir\\Debug\\".
+          Criando o diretório "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xket89\\Debug\\".
+          Criando o diretório "cmTC_bb565.dir\\Debug\\cmTC_bb565.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_bb565.dir\\Debug\\cmTC_bb565.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb565.dir\\Debug\\\\" /Fd"cmTC_bb565.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xket89\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32215 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb565.dir\\Debug\\\\" /Fd"cmTC_bb565.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xket89\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xket89\\Debug\\cmTC_bb565.exe" /INCREMENTAL /ILK:"cmTC_bb565.dir\\Debug\\cmTC_bb565.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-xket89/Debug/cmTC_bb565.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/illya/Documents/bronx/bronx/src/bronx/build/CMakeFiles/CMakeScratch/TryCompile-xket89/Debug/cmTC_bb565.lib" /MACHINE:X64  /machine:x64 cmTC_bb565.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xket89\\cmTC_bb565.vcxproj]
+        Projeto de compilação pronto "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xket89\\cmTC_bb565.vcxproj" (destinos padrão) -- FALHA.
+        
+        FALHA da compilação.
+        
+        "C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xket89\\cmTC_bb565.vcxproj" (destino padrão) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\illya\\Documents\\bronx\\bronx\\src\\bronx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xket89\\cmTC_bb565.vcxproj]
+        
+            0 Aviso(s)
+            1 Erro(s)
+        
+        Tempo Decorrido 00:00:01.36
+        
+      exitCode: 1
+...

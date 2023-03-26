@@ -3,3 +3,6 @@ bin/
 bin-int/
 .vs/bronx/
 vs/
+build/
+out/
+bronx/src/bronx/build/

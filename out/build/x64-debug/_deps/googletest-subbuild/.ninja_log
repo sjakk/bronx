@@ -1,0 +1,21 @@
+# ninja log v5
+2240	2324	7014609419844321	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	d21aa2c7adca917c
+4	108	7014609397668151	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	2d42d200a6546623
+1994	2079	7014609417414297	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	91d084968f025f5b
+4	108	7014609397668151	C:/Users/illya/Documents/bronx/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	2d42d200a6546623
+2158	2240	7014609419024917	C:/Users/illya/Documents/bronx/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	4c2e027276e779a9
+110	1987	7014609416487430	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	8d1e7c7fc80c55a1
+110	1987	7014609416487430	C:/Users/illya/Documents/bronx/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	8d1e7c7fc80c55a1
+2080	2158	7014609418195050	C:/Users/illya/Documents/bronx/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	f38321ee5ec179de
+1994	2079	7014609417414297	C:/Users/illya/Documents/bronx/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	91d084968f025f5b
+2324	2408	7014609420704356	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	6bb45ea2f237d320
+2080	2158	7014609418195050	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	f38321ee5ec179de
+2158	2240	7014609419024917	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	4c2e027276e779a9
+2488	2609	7014609422704432	CMakeFiles/googletest-populate-complete	b755c4f12b185d88
+2240	2324	7014609419844321	C:/Users/illya/Documents/bronx/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	d21aa2c7adca917c
+2488	2609	7014609422704432	C:/Users/illya/Documents/bronx/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	b755c4f12b185d88
+2324	2408	7014609420704356	C:/Users/illya/Documents/bronx/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	6bb45ea2f237d320
+2408	2487	7014609421494263	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	cf957b82e99c1dca
+2408	2487	7014609421494263	C:/Users/illya/Documents/bronx/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	cf957b82e99c1dca
+2488	2609	7014609422704432	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	b755c4f12b185d88
+2488	2609	7014609422704432	C:/Users/illya/Documents/bronx/out/build/x64-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	b755c4f12b185d88

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\illya\Documents\bronx\bronx\src\bronx\build\_deps\googletest-subbuild\CMakeFiles\9b8604d07c0f00f18a2b60e191eaceec\googletest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\illya\Documents\bronx\bronx\src\bronx\build\_deps\googletest-subbuild\CMakeFiles\9b8604d07c0f00f18a2b60e191eaceec\googletest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\illya\Documents\bronx\bronx\src\bronx\build\_deps\googletest-subbuild\CMakeFiles\9b8604d07c0f00f18a2b60e191eaceec\googletest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\illya\Documents\bronx\bronx\src\bronx\build\_deps\googletest-subbuild\CMakeFiles\9b8604d07c0f00f18a2b60e191eaceec\googletest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\illya\Documents\bronx\bronx\src\bronx\build\_deps\googletest-subbuild\CMakeFiles\9b8604d07c0f00f18a2b60e191eaceec\googletest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\illya\Documents\bronx\bronx\src\bronx\build\_deps\googletest-subbuild\CMakeFiles\9b8604d07c0f00f18a2b60e191eaceec\googletest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\illya\Documents\bronx\bronx\src\bronx\build\_deps\googletest-subbuild\CMakeFiles\9b8604d07c0f00f18a2b60e191eaceec\googletest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\illya\Documents\bronx\bronx\src\bronx\build\_deps\googletest-subbuild\CMakeFiles\9b8604d07c0f00f18a2b60e191eaceec\googletest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\illya\Documents\bronx\bronx\src\bronx\build\_deps\googletest-subbuild\CMakeFiles\08f9f01fcab9ab59c72d20f7d4b27700\googletest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\illya\Documents\bronx\bronx\src\bronx\build\_deps\googletest-subbuild\CMakeFiles\e22829d79663824f03a88bc246b9f845\googletest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\illya\Documents\bronx\bronx\src\bronx\build\_deps\googletest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\illya\Documents\bronx\bronx\src\bronx\build\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{753C7348-5896-3900-BECE-5A4C4B45B070}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

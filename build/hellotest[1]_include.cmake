@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/illya/Documents/bronx/build/hellotest[1]_tests.cmake")
+  include("C:/Users/illya/Documents/bronx/build/hellotest[1]_tests.cmake")
+else()
+  add_test(hellotest_NOT_BUILT hellotest_NOT_BUILT)
+endif()

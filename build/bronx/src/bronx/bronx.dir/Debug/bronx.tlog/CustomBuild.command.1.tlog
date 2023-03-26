@@ -1,0 +1,10 @@
+^C:\USERS\ILLYA\DOCUMENTS\BRONX\BRONX\SRC\BRONX\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/illya/Documents/bronx -BC:/Users/illya/Documents/bronx/build --check-stamp-file C:/Users/illya/Documents/bronx/build/bronx/src/bronx/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

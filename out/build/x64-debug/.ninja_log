@@ -1,0 +1,16 @@
+# ninja log v5
+5209	5339	7014919010681023	lib/gtest_main.lib	9ae816b5e2f0d11a
+21	2767	7014612055046553	CMakeBronx/CMakeFiles/CMakeBronx.dir/CMakeBronx.cpp.obj	415a610144bd483b
+87	3100	7014612058471330	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	4f3972acbfccf149
+1765	2335	7013041328855026	CMakeBronx/CMakeBronx.exe	51372b25eaa5a0d9
+9	2744	7014918985415489	CMakeFiles/hellotest.dir/hellotest.cpp.obj	5a444423bfcc8f09
+54	4297	7014612070401473	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	23d5acfaad52c6ab
+76	4301	7014612070451482	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.obj	7a9acbc210fbb4e0
+67	6410	7014612091419444	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.obj	5385337c0643168a
+43	7103	7014612098418936	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.obj	827bbff6a885cc8
+19	5030	7014919008211367	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	ebc56be55313c3c9
+26	2718	7014918985125534	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	6716defc21c9efd0
+5030	5209	7014919009741003	lib/gtest.lib	f69d7871ae13a724
+5339	7199	7014919029986665	hellotest.exe	f0c1a5f8fc762649
+5339	7199	7014919029986665	hellotest[1]_tests.cmake	f0c1a5f8fc762649
+5339	7199	7014919029986665	C:/Users/illya/Documents/bronx/out/build/x64-debug/hellotest[1]_tests.cmake	f0c1a5f8fc762649

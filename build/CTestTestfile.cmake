@@ -1,0 +1,10 @@
+# CMake generated Testfile for 
+# Source directory: C:/Users/illya/Documents/bronx
+# Build directory: C:/Users/illya/Documents/bronx/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+include("C:/Users/illya/Documents/bronx/build/hellotest[1]_include.cmake")
+subdirs("CMakeBronx")
+subdirs("bronx/src/bronx")
+subdirs("_deps/googletest-build")
