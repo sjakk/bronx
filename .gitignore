@@ -4,5 +4,7 @@ bin-int/
 .vs/bronx/
 vs/
 build/
-out/
+out/*
 bronx/src/bronx/build/
+**/build
+**/out
