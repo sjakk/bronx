@@ -2,6 +2,7 @@
 
 #include "bronx/core.h"
 #include <string>
+#include <functional>
 
 
 namespace bronx 
@@ -34,7 +35,7 @@ namespace bronx
 		virtual EventType getEventType() const = 0; // analyse const = 0 ()
 		virtual const char* getEventName() const = 0; //research again virtual
 		virtual int getCategoryFlags() const = 0;
-		virtual std::string toString() { return getEventName(); } // analyse and research type class string ()
+		virtual std::string toString() const { return getEventName(); } // analyse and research type class string ()
 
 		inline bool isInCategory(EventCategory category) {
 			return getCategoryFlags() &category;
@@ -44,8 +45,24 @@ namespace bronx
 	};
 
 
+	class EventDispatcher {
+		template<typename T>
+		using EventFn = std::function<bool(T&)>;
+	public:
+		EventDispatcher(Event& event) : m_Event(event){}
 
 
+	private:
+		
+		Event& m_Event;
+
+
+	};
+
+	inline std::ostream& operator<<(std::ostream& os, const Event& e)
+	{
+		return os << e.toString(); // look at const in function declaration or smt of class to do a research
+	}
 
 
 
