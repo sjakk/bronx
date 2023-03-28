@@ -1,10 +1,14 @@
 #pragma once
 #include "log.h"
 
+#include "Platform/OpenGL/windowBuffer.h"
+
+
 #ifdef BRX_PLATFORM_WINDOWS
 
 int main()
 {
+	bronx::WindowBuffer::WindowBuffer();
 	auto* app = bronx::createApp();
 	bronx::Log::Init();
 	bronx::Log::GetCoreLogger()->info("Initialized bronx");

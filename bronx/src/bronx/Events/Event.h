@@ -28,14 +28,20 @@ namespace bronx
 		eventCategoryMouseButton = BIT(4)
 	};
 
+#define EVENT_CLASS_EVENT_TYPE(type) static EventType getStaticType(){ return EventType::##type;}\
+									 virtual EventType getEventType() const override {return getStaticType();}\
+									virtual const char* getEventName() const override {return #type;}				
+									
+
+#define EVENT_CLASS_CATEGORY(category) virtual int getCategoryFlags() const override { return category; }
 
 	class BRX_API Event {
-		friend class EventDispatcher; // research friend keyword ()
+		friend class EventDispatcher;
 	public:
-		virtual EventType getEventType() const = 0; // analyse const = 0 ()
-		virtual const char* getEventName() const = 0; //research again virtual
+		virtual EventType getEventType() const = 0; 
+		virtual const char* getEventName() const = 0; 
 		virtual int getCategoryFlags() const = 0;
-		virtual std::string toString() const { return getEventName(); } // analyse and research type class string ()
+		virtual std::string toString() const { return getEventName(); } 
 
 		inline bool isInCategory(EventCategory category) {
 			return getCategoryFlags() &category;
@@ -51,7 +57,16 @@ namespace bronx
 	public:
 		EventDispatcher(Event& event) : m_Event(event){}
 
-
+		template<typename T>
+		bool Dispatch(EventFn<T> func)
+		{
+			if (m_Event.getEventType() == T::getStaticType())
+			{
+				m_Event.m_Handled = func(*(T*)&m_Event);
+				return true;
+			}
+			return false;
+		}
 	private:
 		
 		Event& m_Event;
@@ -59,7 +74,7 @@ namespace bronx
 
 	};
 
-	inline std::ostream& operator<<(std::ostream& os, const Event& e)
+	inline std::ostream& operator<<(std::ostream& os,const Event& e)
 	{
 		return os << e.toString(); // look at const in function declaration or smt of class to do a research
 	}

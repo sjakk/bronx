@@ -8,3 +8,13 @@ out/*
 bronx/src/bronx/build/
 **/build
 **/out
+/.vs/
+
+
+*.log
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+**.csproj
