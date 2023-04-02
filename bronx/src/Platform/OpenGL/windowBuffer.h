@@ -1,18 +1,43 @@
-#pragma once
-#include "bronx/core.h"
-#include <glad/glad.h>
+#include "bronx/window.h"
+
 #include <GLFW/glfw3.h>
-#include <iostream>
 
 
 namespace bronx {
-	class BRX_API  WindowBuffer
+	class   WindowBuffer : public Window
 	{
 	public:
-		WindowBuffer();
+		WindowBuffer(const WindowProps& props);
+		virtual ~WindowBuffer();
 
-		inline static void processInput(GLFWwindow* window);
-		inline static void framebuffer_size_callback(GLFWwindow* window, int width, int height);
+		void onUpdate() override;
+
+		inline unsigned int getWidth() const override { return m_Data.Width; }
+		inline unsigned int getHeight() const override { return m_Data.Height; }
+
+		inline void setEventCallback(const eventCallbackFn& callback) override { m_Data.EventCallback = callback; }
+		void setVSync(bool enabled) override;
+		bool isVsync() const override;
+
+	private:
+		virtual void Init(const WindowProps& props);
+		virtual void Shutdown();
+
+	private:
+
+		GLFWwindow* m_Window;
+
+		struct WindowData
+		{
+			std::string Title;
+			unsigned int Width, Height;
+			bool VSync;
+
+			eventCallbackFn EventCallback;
+		};
+
+		WindowData m_Data;
+
 	};
-
+	
 }

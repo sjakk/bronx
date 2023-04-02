@@ -8,7 +8,7 @@
 
 int main()
 {
-	bronx::WindowBuffer::WindowBuffer();
+	
 	auto* app = bronx::createApp();
 	bronx::Log::Init();
 	bronx::Log::GetCoreLogger()->info("Initialized bronx");

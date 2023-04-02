@@ -56,5 +56,8 @@
     <ClInclude Include="src\Platform\OpenGL\windowBuffer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\bronx\window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

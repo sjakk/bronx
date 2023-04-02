@@ -19,6 +19,7 @@
     <ClInclude Include="src\bronx\application.h" />
     <ClInclude Include="src\bronx\core.h" />
     <ClInclude Include="src\bronx\entryPoint.h" />
+    <ClInclude Include="src\bronx\window.h" />
     <ClInclude Include="src\Platform\OpenGL\windowBuffer.h" />
   </ItemGroup>
   <ItemGroup>
